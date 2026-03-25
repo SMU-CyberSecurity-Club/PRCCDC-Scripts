@@ -8,4 +8,4 @@ Scripts for use in the PRCCDC
 ##### scheduler.bat - batch file to create scheduled task in windows
 ##### cron-scheduler.sh - shell script to modify root crontab
 ##### update.sh - linux app update script
-##### update.ps - windows OS udate script
+##### update.ps - windows OS update script
