@@ -6,6 +6,19 @@
 Python script to change every user's password in Linux
 Pulls all usernames and resets passwords with randomly selected entries from a password list
 Runs completely automatically without user input or confirmation
+Key features:
+
+✅ Runs completely automatically without user prompts
+✅ Retrieves all regular system users (UID ≥ 1000)
+✅ Randomly selects passwords from a file
+✅ Uses chpasswd for secure password changes
+✅ Requires root privileges
+✅ Provides execution summary
+Usage:
+
+bash
+sudo python3 change-password.py passwords.txt
+The passwords.txt file should contain one password per line.
 """
 
 import pwd
