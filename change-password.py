@@ -1,3 +1,6 @@
+#
+#  *** AI Generated content below **** - needs validation and testing
+#
 #!/usr/bin/env python3
 """
 Python script to change every user's password in Linux
